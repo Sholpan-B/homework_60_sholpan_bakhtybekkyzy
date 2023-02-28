@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}Product confirm delete{% endblock %}
+
+{% block menu %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Вы точно хотите удалить данный товар?</h1>
+    <p>Наименование: {{ product.name }}</p>
+     <form action="{% url 'confirm_delete' product.pk %}" method="post" class="form">
+        {% csrf_token %}
+        {% bootstrap_button button_type="submit"  content="Да" %}
+    </form>
+    <form action="{% url 'index' %}" method="post" class="form">
+        {% csrf_token %}
+        {% bootstrap_button button_type="submit" content="Нет" %}
+    </form>
+    </div>
+{% endblock %}

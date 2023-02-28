@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Product{% endblock %}
+
+{% block menu %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Продукт</h1>
+    <p>Наименование: {{ product.name }}</p>
+    <p>Описание: {{ product.description }}</p>
+     <p>Фото товара: {{ product.image }}</p>
+    <p>Категория: {{ product.category }}</p>
+    <p>Остаток: {{ product.in_stock }}</p>
+    <p>price: {{ product.price }}</p>
+    <a href="{% url 'index' %}">Назад</a>
+    </div>
+{% endblock %}
