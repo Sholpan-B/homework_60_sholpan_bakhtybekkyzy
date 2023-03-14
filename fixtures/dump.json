@@ -8,7 +8,11 @@
     "image": "https://101kofemashina.ru/wp-content/uploads/2022/10/delongh-magnifica-start-ecam220.jpg",
     "category": "FOR_KITCHEN",
     "in_stock": 16,
-    "price": "505.00"
+    "price": "505.00",
+    "created_at": "2023-03-13T07:21:03.408Z",
+    "updated_at": "2023-03-13T07:21:03.423Z",
+    "is_deleted": false,
+    "deleted_at": null
   }
 },
 {
@@ -20,7 +24,11 @@
     "image": "https://ir.ozone.ru/s3/multimedia-m/wc1000/6538029958.jpg",
     "category": "FOR_KITCHEN",
     "in_stock": 4,
-    "price": "490.00"
+    "price": "490.00",
+    "created_at": "2023-03-13T07:21:03.408Z",
+    "updated_at": "2023-03-13T07:21:03.423Z",
+    "is_deleted": false,
+    "deleted_at": null
   }
 },
 {
@@ -32,7 +40,11 @@
     "image": "https://ir.ozone.ru/s3/multimedia-a/wc1000/6103350178.jpg",
     "category": "SMARTPHONES",
     "in_stock": 5,
-    "price": "810.00"
+    "price": "810.00",
+    "created_at": "2023-03-13T07:21:03.408Z",
+    "updated_at": "2023-03-13T07:21:03.423Z",
+    "is_deleted": false,
+    "deleted_at": null
   }
 },
 {
@@ -44,7 +56,11 @@
     "image": "https://ir.ozone.ru/s3/multimedia-0/wc1000/6424943604.jpg",
     "category": "SMARTPHONES",
     "in_stock": 8,
-    "price": "1500.00"
+    "price": "1500.00",
+    "created_at": "2023-03-13T07:21:03.408Z",
+    "updated_at": "2023-03-13T07:21:03.423Z",
+    "is_deleted": false,
+    "deleted_at": null
   }
 },
 {
@@ -56,7 +72,11 @@
     "image": "https://ir.ozone.ru/s3/multimedia-n/wc1000/6395830355.jpg",
     "category": "LAPTOP",
     "in_stock": 10,
-    "price": "1500.00"
+    "price": "1500.00",
+    "created_at": "2023-03-13T07:21:03.408Z",
+    "updated_at": "2023-03-13T07:21:03.423Z",
+    "is_deleted": false,
+    "deleted_at": null
   }
 },
 {
@@ -68,7 +88,11 @@
     "image": "https://ir.ozone.ru/s3/multimedia-5/wc1000/6477427181.jpg",
     "category": "LAPTOP",
     "in_stock": 3,
-    "price": "800.00"
+    "price": "800.00",
+    "created_at": "2023-03-13T07:21:03.408Z",
+    "updated_at": "2023-03-13T07:21:03.423Z",
+    "is_deleted": false,
+    "deleted_at": null
   }
 },
 {
@@ -80,7 +104,133 @@
     "image": "https://ir.ozone.ru/s3/multimedia-r/wc1000/6432923139.jpg",
     "category": "LAPTOP",
     "in_stock": 3,
-    "price": "850.00"
+    "price": "850.00",
+    "created_at": "2023-03-13T07:21:03.408Z",
+    "updated_at": "2023-03-13T07:21:03.423Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "marketapp.product",
+  "pk": 9,
+  "fields": {
+    "name": "15.6\" Ноутбук Acer NX.ADDER.01A, Intel Core i7-1165G7 (2.8 ГГц)",
+    "description": "Общие данные:\r\nПроцессор: Intel Core i7-1165G7\r\nОперативная память: 8 ГБ\r\nУстановленная операционная система: Windows 11 Home",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-k/wc1000/6491618576.jpg",
+    "category": "LAPTOP",
+    "in_stock": 10,
+    "price": "921.00",
+    "created_at": "2023-03-13T10:17:00.617Z",
+    "updated_at": "2023-03-13T10:17:00.617Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "marketapp.product",
+  "pk": 10,
+  "fields": {
+    "name": "Вакуумный упаковщик OBERHOF Leere T- 30",
+    "description": "Домашний вакууматор для продуктов / Встроенный нож/ Отсек для жидкости/ 1 бар, \r\nРазмеры, мм- 400х160х265\r\nМакс. ширина пакета, см - 30",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-5/wc1000/6408303401.jpg",
+    "category": "FOR_KITCHEN",
+    "in_stock": 4,
+    "price": "170.00",
+    "created_at": "2023-03-13T11:21:29.787Z",
+    "updated_at": "2023-03-13T11:21:29.787Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "marketapp.product",
+  "pk": 11,
+  "fields": {
+    "name": "Кухонная машина Kenwood KMX750AAR Красная",
+    "description": "Универсальный комплекс\r\n\r\nВозможность быстро и качественно обрабатывать ингредиенты блюд является неоценимым достоинством современной кулинарной техники. Так, с покупкой кухонной машины Kenwood KMX 750 AAR, вы избавитесь от необходимости раз за разом повторять обязательные рутинные операции, доверив их этому автоматическому помощнику повара. При сравнительно низком потреблении энергии, мотор кухонной машины имеет максимальную мощность в 1000 Ватт с регулировкой на 6 скоростей и 2 привода для подключения сменных насадок разного типа. Смешивание ингредиентов осуществляется в собственной металлической 5 л. чаше, причем в сборке кухонная машина занимает не так уж много места и поместится даже на самой маленькой кухне.",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-b/wc1000/6537662639.jpg",
+    "category": "FOR_KITCHEN",
+    "in_stock": 9,
+    "price": "435.00",
+    "created_at": "2023-03-13T11:25:33.661Z",
+    "updated_at": "2023-03-13T11:25:33.661Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "marketapp.product",
+  "pk": 14,
+  "fields": {
+    "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-s/wc1000/6345956752.jpg",
+    "category": "FOR_KITCHEN",
+    "in_stock": 1,
+    "price": "300.00",
+    "created_at": "2023-03-13T12:33:36.458Z",
+    "updated_at": "2023-03-13T12:33:36.458Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "marketapp.product",
+  "pk": 15,
+  "fields": {
+    "name": "ddddddddddddddddddddddddddddddddd",
+    "description": "dddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-s/wc1000/6345956752.jpg",
+    "category": "SMARTPHONES",
+    "in_stock": 0,
+    "price": "0.00",
+    "created_at": "2023-03-13T12:34:02.469Z",
+    "updated_at": "2023-03-13T12:34:02.469Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "marketapp.product",
+  "pk": 16,
+  "fields": {
+    "name": "oooooooooooooooooooooooooooooo",
+    "description": "oooooooooooooooooooooooooooooooooooooooooooo",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-s/wc1000/6345956752.jpg",
+    "category": "OTHER",
+    "in_stock": 0,
+    "price": "300.00",
+    "created_at": "2023-03-13T12:41:41.407Z",
+    "updated_at": "2023-03-13T12:41:41.407Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "marketapp.productincart",
+  "pk": 1,
+  "fields": {
+    "product": 14,
+    "quantity": 1
+  }
+},
+{
+  "model": "marketapp.productincart",
+  "pk": 2,
+  "fields": {
+    "product": 10,
+    "quantity": 2
+  }
+},
+{
+  "model": "marketapp.order",
+  "pk": 1,
+  "fields": {
+    "user_name": "Maksim",
+    "phone": "77079908485",
+    "address": "Furmanova 50",
+    "ordered_at": "2023-03-14T12:57:42.870Z"
   }
 },
 {
@@ -588,11 +738,263 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 15,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 15,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 15,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 15,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add status",
+    "content_type": 16,
+    "codename": "add_status"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change status",
+    "content_type": 16,
+    "codename": "change_status"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete status",
+    "content_type": 16,
+    "codename": "delete_status"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view status",
+    "content_type": 16,
+    "codename": "view_status"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add type",
+    "content_type": 17,
+    "codename": "add_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change type",
+    "content_type": 17,
+    "codename": "change_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete type",
+    "content_type": 17,
+    "codename": "delete_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view type",
+    "content_type": 17,
+    "codename": "view_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add Проект",
+    "content_type": 18,
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change Проект",
+    "content_type": 18,
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete Проект",
+    "content_type": 18,
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view Проект",
+    "content_type": 18,
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add Заказ",
+    "content_type": 19,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change Заказ",
+    "content_type": 19,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete Заказ",
+    "content_type": 19,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view Заказ",
+    "content_type": 19,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add product in cart",
+    "content_type": 20,
+    "codename": "add_productincart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change product in cart",
+    "content_type": 20,
+    "codename": "change_productincart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete product in cart",
+    "content_type": 20,
+    "codename": "delete_productincart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view product in cart",
+    "content_type": 20,
+    "codename": "view_productincart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add order product",
+    "content_type": 21,
+    "codename": "add_orderproduct"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change order product",
+    "content_type": 21,
+    "codename": "change_orderproduct"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete order product",
+    "content_type": 21,
+    "codename": "delete_orderproduct"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view order product",
+    "content_type": 21,
+    "codename": "view_orderproduct"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$390000$L1tdJZrbQm6YDAuta22Xz3$NMu71ZYBionGbpoIK52EWHx3sgYT7GrAQA9v9o4wWZY=",
-    "last_login": "2023-02-27T09:55:20.439Z",
+    "last_login": "2023-03-14T08:51:05.483Z",
     "is_superuser": true,
     "username": "sholpan",
     "first_name": "",
