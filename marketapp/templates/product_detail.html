@@ -1,20 +1,40 @@
 {% extends 'base.html' %}
-
 {% block title %}Product{% endblock %}
-
 {% block menu %}
-
 {% endblock %}
-
 {% block content %}
-    <div class="container">
-        <h1>Продукт</h1>
-    <p>Наименование: {{ product.name }}</p>
-    <p>Описание: {{ product.description }}</p>
-     <p>Фото товара: {{ product.image }}</p>
-    <p>Категория: {{ product.category }}</p>
-    <p>Остаток: {{ product.in_stock }}</p>
-    <p>price: {{ product.price }}</p>
-    <a href="{% url 'index' %}">Назад</a>
-    </div>
+<h3 class="txt-color pt-10 pb-10" style="font-size: 30px">{{ product.name }}</h3>
+    {% if product %}
+        <div class="card mb-3" style="max-width: 1000px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="{{ product.image }}" class="img-fluid rounded-start" style="padding-top: 15px;
+                    height: 90%; width: 90%; display: block;
+                    margin-left: auto; margin-right: auto" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><b>Описание:</b> {{ product.description }}</li>
+                            <li class="list-group-item"><b>Категория:</b> {{ product.get_category_display }}</li>
+                            <li class="list-group-item"><b>Стоимость:</b> ${{ product.price }}</li>
+                        </ul>
+                        <div class="card-body">
+                            <a class="btn btn-primary" href="{% url 'product_edit' product.pk %}"
+                               role="button">Редактировать</a>
+                            <a class="btn btn-danger" href="{% url 'product_delete' product.pk %}"
+                               role="button">Удалить</a>
+                        </div>
+                        <div class="card-text ml-5"><small class="text-muted"> Остаток: {{ product.in_stock }} ед.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    {% else %}
+        <p class="mt-5 ml-3 fw-bold">Товар не найден</p>
+    {% endif %}
 {% endblock %}
+

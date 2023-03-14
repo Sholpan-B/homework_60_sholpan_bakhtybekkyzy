@@ -1,0 +1,17 @@
+{% load django_bootstrap5 %}
+<form method="post" action="{% url 'checkout' %}">
+  {% csrf_token %}
+  <div>
+    <label for="id_name">Имя:</label>
+    <input type="text" name="name" required>
+  </div>
+  <div>
+    <label for="id_address">Адрес:</label>
+    <input type="text" name="address" required>
+  </div>
+  <div>
+    <label for="id_phone">Телефон:</label>
+    <input type="text" name="phone" required>
+  </div>
+  {% bootstrap_button button_type="submit"  content="Заказать" %}
+</form>

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 style="font-size: 40px">Корзина</h1>
+    <hr>
+<table>
+  <thead>
+    <tr>
+      <th>Наименование</th>
+      <th>Стоимость</th>
+      <th>Количество</th>
+      <th>Сумма</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for product in products %}
+      <tr>
+        <td>{{ product.product.name }}</td>
+        <td>{{ product.product.price }}</td>
+        <td>{{ product.quantity }}</td>
+        <td>{{ product.amount }}</td>
+        <td>
+          <form method="post" action="{% url 'remove_from_cart' product.pk %}">
+            {% csrf_token %}
+            <button type="submit">Удалить</button>
+          </form>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Total:</td>
+      <td>{{ total }}</td>
+      <td></td>
+    </tr>
+  </tfoot>
+</table>
+    <br>
+    <hr>
+    {% include 'partial/order.html' %}
+{% endblock %}
